@@ -1,0 +1,89 @@
+.home-main {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../images/homepagebackground.jpg') no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: black;
+    align-items: center;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    width: 150%;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content p {
+    font-size: 4rem;
+    margin: .5rem 0;
+    font-weight: 400;
+}
+
+.cvpage {
+    min-height: 200vh;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    background-color: #ddd8d3;
+    padding: 50px 200px
+}
+
+.cvparagraph {
+    color: blue;
+    font-size: 30px;
+}
+
+.cvparagraph2 {
+    color: #474747;
+    font-size: 20px;
+    line-height: 30px;
+}
